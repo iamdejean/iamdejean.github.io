@@ -85,6 +85,31 @@ img {
 }
 
 
+.myButton {
+    background-color: #c5c744;
+    border-radius: 28px;
+    border: 1px solid #9cab18;
+    display: inline-block;
+    cursor: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #302766; 
+  }
+  
+  .myButton :hover {
+    background-color: #f8f679;
+  }
+  
+  .myButton :active {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    top: 1px;
+  }
+
 
 button,
 input,
